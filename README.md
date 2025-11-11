@@ -16,8 +16,8 @@
 
 ### 1. 리포지토리 클론
 ```bash
-git clone https://github.com/YourUsername/face-recognition-system.git
-cd face-recognition-system
+git clone https://github.com/Che-Serene/Medi-Buddy-FaceDetection.git
+cd Medi-Buddy-FaceDetection
 ```
  
 
@@ -99,9 +99,3 @@ encoding = np.load('face_encoding.npy')
 - `tolerance` (float, default=0.3): 얼굴 비교 임계값 (0.3 ~ 0.4 권장, 낮을수록 엄격)
 - `target_detect` (callable, optional): 타겟 발견/사라짐 시 호출할 콜백 함수
 - `headless` (bool, default=False): GUI 없이 실행 여부 (라즈베리파이는 True 권장)
-
-## License
-MIT License
-
-## Author
-intel
